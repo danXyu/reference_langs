@@ -1,0 +1,18 @@
+{
+  "name": "jade_reference",
+  "version": "0.0.1",
+  "description": "a reference sheet/page for jade language nuances",
+  "author": "dan yu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danXyu/reference_langs.git"
+  },
+  "contributors": [{
+    "name": "dan yu",
+    "email": "danyu1996@gmail.com"
+  }],
+  "dependencies": {
+    "express": "4.x",
+    "jade": "1.9.1"
+  }
+}

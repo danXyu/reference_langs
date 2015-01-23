@@ -1,0 +1,53 @@
+//- Feel free to comment throughout this entire document.
+doctype html
+html(lang="en")
+
+  //- Get used to the lack of angle brackets.
+  head
+    title= pageTitle
+
+  //- Indentation is crucial, or else it's difficult to tell when a tag ends.
+  body
+
+    //- Headers.
+    h1 This is an h1 header!
+    h2 This is an h2 header!
+    h3 This is an h3 header!
+    h4 This is an h4 header!
+    h5 This is an h5 header!
+    h6 This is an h6 header!
+
+    //- Attributes.
+    a(href = 'google.com') Google
+    br
+    a(href = 'facebook.com') Facebook
+    br
+    a(href = 'yahoo.com') Check Out Yahoo! Also, Jade actually makes this so simple.
+    br
+
+    //- The best part is how we can use javascript.
+    - var userIsLoggedIn = true;
+    div(class = userIsLoggedIn ? 'true' : 'false')
+    br
+
+    //- Escape html using '!='.
+    div(escaped = '<code>') Escaped
+    div(escaped != '<code>') Non-Escaped
+    br
+
+    //- Adding styles couldn't be easier.
+    a(style = {color: 'red', background: '#ffffff'}) Helloooo!
+
+    //- Stringin classes also got easier.
+    - var classes = ['one', 'two', 'three'];
+    div(class = classes) This has an array of classes.
+
+
+    //- Div's don't even need to be stated!
+    .some-div This still represents a div.
+
+    //- Interesting parts of the language:
+    - var attributes = {'id': 'some-id', 'name': 'some-name', 'working': 'idk'};
+    div&attributes(attributes) Hello!!
+
+
