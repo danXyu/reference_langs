@@ -26,6 +26,16 @@
 // \<, Start of word
 // \>, End of word
 
+/* Assertions. */
+// ?=,  Lookahead assertion
+// ?!,  Negative lookahead
+// ?<=,  Lookbehind assertion
+// ?!= or ?<!,  Negative lookbehind
+// ?>,  Once-only Subexp­ression
+// ?(),  Condition [if then]
+// ?()|,  Condition [if then else]
+// ?#,  Comment
+
 
 // Match the first matched word, a super basic task of finding its first occurrence.
 var string_ex_1 = "hello, i'm testING something";
