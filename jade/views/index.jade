@@ -50,4 +50,35 @@ html(lang="en")
     - var attributes = {'id': 'some-id', 'name': 'some-name', 'working': 'idk'};
     div&attributes(attributes) Hello!!
 
+    - var someVariable = "This is a variable, how awesome it that?";
+    p "This is a way to use variables #{someVariable}"
 
+    //- Buffered code is inputed with the use of "="
+    p= "This code will be <escaped>!"
+
+    //- Unbuffered code is inputed with the use of "!="
+    p!= "This code will not be <strong>escaped</strong>!"
+    p!= "Be sure to avoid cross-site scripting!"
+
+    //- You can either use if or unless for conditional statements.
+    - var authorized = false
+
+    if authorized
+        p This user is authorized
+    else
+        p This user is unauthorized
+
+    unless authorized
+        p This user is using unless to prove unauthorized
+
+    //- Use extends ./layout.jade in order to extend some layout
+
+    //- An important part of jade is use of mixins.
+    mixin list
+        ul
+            li foo
+            li baz
+            li bar
+
+    +list
+    +list
