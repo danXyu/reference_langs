@@ -15,6 +15,11 @@ I hope that over time, this will contain valuable information that others can us
 ### Regular Expressions (100%)
 
 > Regular expressions are an invaluable language because they allow certain operations to take seconds. It makes
-> use of expressions surrounded by "/" in order to filter out certain data from the strings.
+> use of expressions surrounded by "/" in order to filter out certain data from the strings and can be used in
+> conjunction with search functions.
 
 ### Structured-Query Language (100%)
+
+> SQL is one of the more dominant database languages nowadays so it's invaluable to know this information. A lot
+> of this code was helpful with Stanford's CS 145 (Introduction to Databases) class. For more in-depth use cases,
+> check out the repository on my code from my courseloads.

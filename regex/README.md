@@ -1,4 +1,4 @@
-# Regex Essentials - Dan Yu
+# Regex Essentials (100%)
 
 This document will contain the necessary information for basic regex parsing. The functions have been tested
 using javascript's 'replace' and 'match' functions along with Node's V8 javascript engine. Please open the

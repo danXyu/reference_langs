@@ -1,4 +1,4 @@
-# Jade Personal Reference Sheet
+# Jade Personal Reference Sheet (100%)
 
 This reference sheet is intended as a quick reference for whenever the jade language is used for programming projects. It's
 not too comprenhensive but it covers the basics of the language. Whenever a user needs to input certain elements with the
